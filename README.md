@@ -1,6 +1,6 @@
-# NT118.O12 - Developing Mobile Applications (Using Java)
+# NT118 - Developing Mobile Applications (Using Java)
 
-This repository contains code and resources related to the course "NT118.O12 - Developing Mobile Applications" which I studied at UIT (University of Information Technology), Vietnam.
+This repository contains code and resources related to the course "NT118 - Developing Mobile Applications" which I studied at UIT (University of Information Technology), Vietnam.
 
 ## Directories
 
