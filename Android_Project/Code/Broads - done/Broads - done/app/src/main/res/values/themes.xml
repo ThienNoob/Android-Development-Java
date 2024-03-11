@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Broads" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#73B1E3</item>
+<!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+    </style>
+    <style name="Theme.Broads" parent="Base.Theme.Broads" />
+
+</resources>

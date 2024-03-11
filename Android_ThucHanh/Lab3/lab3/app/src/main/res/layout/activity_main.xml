@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="410dp"
+        android:layout_height="54dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text="Lab05_1"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="411dp"
+        android:layout_height="217dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <ImageView
+            android:id="@+id/iv_uit_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/uit_logo"
+            android:padding="20dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/xml_side"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center |bottom"
+        android:text="@string/from_xml"
+        android:layout_marginRight="@dimen/margin_base"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <TextView
+        android:id="@+id/code_side"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+
+        android:layout_marginEnd="20dp"
+        android:gravity="center |bottom"
+        android:text="@string/from_code"
+        android:layout_marginRight="@dimen/margin_base"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/btn_fade_in_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:text="@string/fade_in"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_fade_out_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="68dp"
+                android:text="@string/fade_out"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_zoom_in_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="136dp"
+                android:text="@string/zoom_in"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_zoom_out_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="204dp"
+                android:text="@string/zoom_out"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_blink_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="272dp"
+                android:text="@string/blink"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_rotate_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="340dp"
+                android:text="@string/rotate"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_move_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="408dp"
+                android:text="@string/move"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_slide_up_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="476dp"
+                android:text="@string/slide_up"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_bounce_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="544dp"
+                android:text="@string/bounce"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_combine_xml"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="612dp"
+                android:text="@string/combine"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_fade_in_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:text="@string/fade_in"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_fade_out_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="68dp"
+                android:text="@string/fade_out"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_zoom_in_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="136dp"
+                android:text="@string/zoom_in"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_zoom_out_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="204dp"
+                android:text="@string/zoom_out"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_blink_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="272dp"
+                android:text="@string/blink"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_rotate_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="340dp"
+                android:text="@string/rotate"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_move_code"
+                 android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="408dp"
+                android:text="@string/move"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_slide_up_code"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="476dp"
+                android:text="@string/slide_up"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_bounce_code"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="544dp"
+                android:text="@string/bounce"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/btn_combine_code"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="612dp"
+                android:text="@string/combine"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

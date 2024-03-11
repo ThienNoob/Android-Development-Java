@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Setting"/>
+    <item android:title="Share">
+        <menu>
+            <item android:title="Facebook"
+                android:id="@+id/menu_share_facebook"/>
+            <item android:title="Zalo"
+                android:id="@+id/menu_share_zalo"/>
+
+        </menu>
+    </item>
+    <item android:title="Home"/>
+
+
+    <item android:title="Search"
+        android:icon="@drawable/icon_search"
+        android:id="@+id/menu_search"
+        app:showAsAction="always"/>
+    <item android:title="Add"
+        android:icon="@drawable/icon_add"
+        android:id="@+id/menu_add"
+        app:showAsAction="always"/>
+    <item android:title="Notifications"
+        android:icon="@drawable/icon_notice"
+        android:id="@+id/menu_notice"
+        app:showAsAction="always"
+        />
+
+
+    <!--     android:orderInCategory="" để xếp thứ tự -->
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:padding="20dp">
+
+
+
+    <EditText
+        android:id="@+id/broad_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="Broad's Name"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/sp_backcolor"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
+        app:backgroundTint="@null" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:text="Add"
+            android:textColor="@color/black"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@null" />
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Cancle"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/black"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005497181818",
+    "project_id": "fir-authenication-1bdd2",
+    "storage_bucket": "fir-authenication-1bdd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005497181818:android:7d8b0ffe09b1c4907ebdc3",
+        "android_client_info": {
+          "package_name": "com.example.authenication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL0VE2aPw3QrOk5NIWiW7OqfhYbBHIXho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

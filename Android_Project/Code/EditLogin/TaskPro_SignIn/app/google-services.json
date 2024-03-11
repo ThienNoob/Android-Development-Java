@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "404445340694",
+    "project_id": "team-b52e0",
+    "storage_bucket": "team-b52e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404445340694:android:a0bf8eb2a291e04cbf8137",
+        "android_client_info": {
+          "package_name": "com.example.taskpro_signin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvHtciu1INs14aUkdk1UWUah53Z6Is8Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
